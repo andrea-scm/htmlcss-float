@@ -4,6 +4,7 @@
   padding: 10px;
   max-width: 100%;
   background-color: #cecece;
+  overflow: auto;
 }
 
 .left_container{
