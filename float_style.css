@@ -3,14 +3,17 @@
   margin: 0;
   padding: 10px;
   max-width: 100%;
-  background-color: #cecece;
   overflow: auto;
+}
+
+body{
+    background-color: #cecece;
 }
 
 .left_container{
   float: left;
   width: 35%;
-  padding: 20px 30px;
+  padding: 5px 30px;
 }
 
 /* clearfix */
@@ -36,7 +39,6 @@
   font-size: 30px;
   font-weight: bold;
   color: red;
-  background-color: white;
   padding: 0px;
 }
 
@@ -47,7 +49,6 @@
 
 .user > p{
   text-align: justify;
-  background-color: white;
   padding:20px 10px;
 }
 
@@ -75,7 +76,6 @@ ul{
 li > img{
   width: 80%;
   height: 20%;
-  background-color: white;
   border-radius: 20%;
   float: right;
 }
@@ -83,7 +83,6 @@ li > img{
 .left_container .social_link ul li{
   display: inline-block;
   width: 30%;
-  background-color: white;
   padding: 5px;
 }
 
@@ -93,6 +92,8 @@ li > img{
   width: 65%;
   padding: 20px 30px;
   margin-bottom: 20px;
+  background-color: white;
+  border-radius: 3%;
 }
 
 /* clearfix */
@@ -104,23 +105,16 @@ li > img{
 
 .contenuto{
   border-radius: 2%;
-  background-color: white;
 }
 
 .contenuto > h1{
-  background-color: white;
   padding: 20px 10px;
   margin-left: 20px;
 }
 
 h3{
-  background-color: white;
   padding: 0;
   margin-left: 10px;
-}
-
-.top_three, .top_three > div{
-  background-color: white
 }
 
 hr{
@@ -129,7 +123,6 @@ hr{
 }
 
 .ranking_element{
-  background-color: white;
   width: 100%;
   height: 250px;
   /* serve per poter dare l'altezza ai vari riquadri con img,h3,p
@@ -139,7 +132,6 @@ hr{
 }
 
 .ranking_element img{
-  background-color: white;
   height: 230px;
   padding: 0;
   margin-right: 20px;
@@ -147,13 +139,15 @@ hr{
 }
 
 .ranking_element p{
-  background-color: white;
   padding: 20px;
 }
 
 footer{
+  padding: 0;
   width: 100%;
-  padding: 20px 30px;
+  background-color: white;
+  border-radius: 3%;
+  clear: both;
 }
 
 /* clearfix */
@@ -163,37 +157,29 @@ footer{
   content: '';
 }
 
-.footer_container{
-  border-radius: 2%;
-  background-color: white;
-  float: left;
-}
 footer h1{
   float: left;
   width: 100%;
-  background-color: white;
+  padding: 15px 15px;
 }
 
 footer p{
   float: left;
-  background-color: white;
 }
 
 .react_icon{
   float: right;
-  background-color: white;
 }
 
 .react_icon ul > img{
   background-color: white;
   height: 20px;
-  width: 20px;
+  width: 20px;s
 }
 
-.footer_container .react_icon ul li{
+footer .react_icon ul li{
   display: inline-block;
   width: 13%;
-  background-color: white;
   padding: 0;
   transform: translate(280px, 0);
 }
